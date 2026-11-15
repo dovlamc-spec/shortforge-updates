@@ -2,10 +2,18 @@
   "version": "3.4",
   "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe",
   "notes": [
-    "New neural voices: Edge (free), Azure and ElevenLabs - pick one in Settings > Voice",
-    "Test voice button to hear the voice before making a video",
-    "Background footage now changes exactly with each scene",
-    "Videos end with a 'Follow for more!' outro (can be turned off)",
-    "Windows voice is used automatically if the chosen voice is unavailable"
+    "YouTube upload: connect your channel and upload or schedule videos (one or more per day at your times)",
+    "Auto-upload: every new video can go straight to YouTube",
+    "Up to 5x faster rendering on NVIDIA, AMD and Intel graphics cards",
+    "5 caption styles: Classic, Bold pop, Clean, Neon and Karaoke - with live preview",
+    "Thumbnail picture for every video",
+    "Logo watermark and brand intro",
+    "13 languages - make the same video in Spanish, German, Portuguese and more in one click",
+    "Music picked by the mood of each video",
+    "Topics page, AI idea generator and batch making (1-10 videos)",
+    "Videos page: play, copy title and description, mark uploaded",
+    "Setup wizard for first start",
+    "Send error report button",
+    "Sign in with Google, free trial and license info"
   ]
 }

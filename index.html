@@ -3,25 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ShortForge Studio - AI YouTube Shorts maker for Windows</title>
-<meta name="description" content="ShortForge Studio is a Windows app that writes, voices, edits and uploads YouTube Shorts for your channel.">
+<title>ShortForge Studio - AI Shorts, TikTok & Reels maker for Windows</title>
+<meta name="description" content="ShortForge Studio is a Windows app that writes, voices, edits and uploads YouTube Shorts and TikToks for your channel.">
 <link rel="icon" href="favicon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div class="wrap">
   <a class="brand" href="./"><img src="logo.png" alt=""><span>SHORTFORGE <small>STUDIO</small></span></a>
-  <nav><a href="#features">Features</a><a href="#premium">Premium</a><a href="#youtube">YouTube</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  <nav><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#youtube">YouTube</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
 </div></header>
 
 <main>
 <div class="hero wrap">
-  <span class="pill">Windows desktop app · v3.4</span>
-  <h1>Make YouTube Shorts<br><span>on autopilot</span></h1>
-  <p class="lead">ShortForge Studio writes the script, records a natural voice, finds matching footage, adds animated captions and music, and can upload the finished Short to your own YouTube channel on a schedule you choose.</p>
+  <span class="pill">Windows desktop app · v4.2</span>
+  <h1>Make Shorts &amp; TikToks<br><span>on autopilot</span></h1>
+  <p class="lead">ShortForge Studio writes the script, records a natural voice, finds matching footage, adds animated captions and music, and can upload the finished video to your own YouTube and TikTok on a schedule you choose.</p>
   <div class="btns">
     <a class="btn" href="https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe">Download for Windows</a>
-    <a class="btn ghost" href="#features">See features</a>
+    <a class="btn ghost" href="#pricing">See pricing</a>
   </div>
   <div class="video"><video src="promo.mp4" poster="promo-poster.jpg" autoplay muted loop playsinline controls></video></div>
 </div>
@@ -39,16 +39,73 @@
   </div>
 </div></section>
 
-<section id="premium"><div class="wrap">
-  <h2>Free vs Premium</h2>
-  <p class="sub">Start free. Upgrade when you're ready to grow.</p>
-  <div class="grid">
-    <div class="card"><h3>FREE</h3><p>3 videos per day · small watermark · classic captions · English · CPU rendering · topics, AI ideas, music and help included.</p></div>
-    <div class="card" style="border-color:#F5B70B;background:linear-gradient(135deg,#2A1F0A,#1E1A2E)"><h3 style="color:#FFD75E">★ PREMIUM</h3><p style="color:#E8EAF0">Unlimited videos · no watermark · 5 caption styles · 13 languages · fast GPU rendering · up to 50 videos in one click (3 at a time) · YouTube upload &amp; scheduling · logo, brand intro and thumbnails.</p></div>
+<section id="pricing"><div class="wrap">
+  <h2>Simple pricing</h2>
+  <p class="sub">Start free with 3 videos a day. Upgrade for unlimited videos and auto-upload to the platforms you use.</p>
+
+  <div class="toggle" role="tablist">
+    <button class="on" data-period="monthly">Monthly</button>
+    <button data-period="yearly">Yearly <span class="save">save ~40%</span></button>
   </div>
-  <div class="video" style="margin:26px 0 0;max-width:760px"><video src="premium.mp4" autoplay muted loop playsinline></video></div>
-  <div class="btns" style="justify-content:flex-start"><a class="btn" href="mailto:vladimirtrajkovic.4444@gmail.com?subject=ShortForge%20Premium">Get Premium - contact us</a></div>
-  <p class="note" style="margin-top:14px">After payment your account is activated within 24 hours. In the app: Sign out and sign in again to unlock Premium.</p>
+
+  <div class="plans">
+    <div class="plan">
+      <div class="plan-ic">♪</div>
+      <h3>TikTok</h3>
+      <p class="plan-sub">For TikTok creators</p>
+      <div class="price"><b data-m="€6.99" data-y="€49">€6.99</b><span data-m="/ month" data-y="/ year">/ month</span></div>
+      <ul>
+        <li>Unlimited videos, no watermark</li>
+        <li>Auto-send to TikTok (draft or direct post)</li>
+        <li>All 5 caption styles · 13 languages</li>
+        <li>Fast GPU rendering · 50 videos in one click</li>
+        <li class="no">YouTube upload</li>
+      </ul>
+      <a class="btn ghost buy" data-plan="tiktok">Get TikTok</a>
+    </div>
+
+    <div class="plan best">
+      <div class="ribbon">BEST VALUE</div>
+      <div class="plan-ic">★</div>
+      <h3>Pack <small>YouTube + TikTok</small></h3>
+      <p class="plan-sub">Everything, on both platforms</p>
+      <div class="price"><b data-m="€9.90" data-y="€69">€9.90</b><span data-m="/ month" data-y="/ year">/ month</span></div>
+      <ul>
+        <li>Everything in TikTok and YouTube</li>
+        <li>Auto-upload &amp; schedule to both</li>
+        <li>Analytics, calendar, several channels</li>
+        <li>Community chat &amp; forum</li>
+        <li>Priority help</li>
+      </ul>
+      <a class="btn buy" data-plan="pack">Get the Pack</a>
+      <a class="week buy" data-plan="pack_week">or try one week for €3.99</a>
+    </div>
+
+    <div class="plan">
+      <div class="plan-ic">▶</div>
+      <h3>YouTube</h3>
+      <p class="plan-sub">For YouTube Shorts channels</p>
+      <div class="price"><b data-m="€6.99" data-y="€49">€6.99</b><span data-m="/ month" data-y="/ year">/ month</span></div>
+      <ul>
+        <li>Unlimited videos, no watermark</li>
+        <li>Auto-upload &amp; schedule to YouTube</li>
+        <li>All 5 caption styles · 13 languages</li>
+        <li>Fast GPU rendering · 50 videos in one click</li>
+        <li class="no">TikTok upload</li>
+      </ul>
+      <a class="btn ghost buy" data-plan="youtube">Get YouTube</a>
+    </div>
+  </div>
+
+  <div class="how">
+    <div><b>1</b>Pay securely by card or PayPal</div>
+    <div><b>2</b>Your license key arrives by email</div>
+    <div><b>3</b>In the app: Settings &gt; Premium license key &gt; Activate</div>
+  </div>
+  <p class="fine">Prices include VAT where applicable. Cancel your subscription anytime from the link in your receipt. Payments are handled by Lemon Squeezy, our merchant of record.
+    <br>Instagram Reels: every plan makes Reels-ready videos you can share in two clicks.</p>
+
+  <div class="video" style="margin:34px auto 0;max-width:760px"><video src="premium.mp4" autoplay muted loop playsinline></video></div>
 </div></section>
 
 <section id="youtube"><div class="wrap">
@@ -67,5 +124,36 @@
   <span>© 2026 Wadisha · ShortForge Studio</span>
   <span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="mailto:vladimirtrajkovic.4444@gmail.com">Contact</a></span>
 </div></footer>
+<script>
+/* ===== LINKOVI ZA PLACANJE (Lemon Squeezy) =====
+   Za svaku varijantu: Lemon Squeezy > Products > proizvod > Share > izaberi varijantu > Copy link
+   i nalepi izmedju navodnika. Prazno = dugme salje mejl. */
+const TIKTOK  = "https://shortforge.lemonsqueezy.com/checkout/buy/818b063a-442a-4caf-a09e-98acfd571efc";
+const YOUTUBE = "https://shortforge.lemonsqueezy.com/checkout/buy/e417171d-9307-4fd5-9d0a-57e43dcc64c1";
+const PACK    = "https://shortforge.lemonsqueezy.com/checkout/buy/34b9f73e-2d31-44f9-87e9-dc01dd52b360";
+// isti link za mesecno/godisnje - kupac na placanju bira period (Monthly / Yearly / Weekly)
+const CHECKOUT = {
+  tiktok:  { monthly: TIKTOK,  yearly: TIKTOK },
+  youtube: { monthly: YOUTUBE, yearly: YOUTUBE },
+  pack:    { monthly: PACK,    yearly: PACK },
+  pack_week: { monthly: PACK,  yearly: PACK }
+};
+const CONTACT = "mailto:vladimirtrajkovic.4444@gmail.com?subject=ShortForge%20Premium";
+let period = "monthly";
+function refresh() {
+  document.querySelectorAll(".toggle button").forEach(b => b.classList.toggle("on", b.dataset.period === period));
+  document.querySelectorAll("[data-m]").forEach(el => el.textContent = period === "monthly" ? el.dataset.m : el.dataset.y);
+  document.querySelectorAll(".buy").forEach(a => {
+    const p = CHECKOUT[a.dataset.plan] || {};
+    const url = a.dataset.plan === "pack_week" ? (p.monthly || p.yearly) : p[period];
+    if (url) { a.href = url + (url.includes("?") ? "&" : "?") + "embed=1"; a.classList.add("lemonsqueezy-button"); a.removeAttribute("target"); }
+    else { a.href = CONTACT; a.classList.remove("lemonsqueezy-button"); }
+  });
+  const w = document.querySelector(".week"); if (w) w.style.visibility = period === "monthly" ? "visible" : "hidden";
+}
+document.querySelectorAll(".toggle button").forEach(b => b.onclick = () => { period = b.dataset.period; refresh(); if (window.createLemonSqueezy) createLemonSqueezy(); });
+refresh();
+</script>
+<script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
 </body>
 </html>

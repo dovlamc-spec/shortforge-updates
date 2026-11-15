@@ -1,0 +1,16 @@
+{
+  "tracks": [
+    { "mood": "epic",       "name": "epic1.mp3",       "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/epic1.mp3" },
+    { "mood": "epic",       "name": "epic2.mp3",       "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/epic2.mp3" },
+    { "mood": "funny",      "name": "funny1.mp3",      "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/funny1.mp3" },
+    { "mood": "funny",      "name": "funny2.mp3",      "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/funny2.mp3" },
+    { "mood": "tense",      "name": "tense1.mp3",      "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/tense1.mp3" },
+    { "mood": "tense",      "name": "tense2.mp3",      "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/tense2.mp3" },
+    { "mood": "calm",       "name": "calm1.mp3",       "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/calm1.mp3" },
+    { "mood": "calm",       "name": "calm2.mp3",       "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/calm2.mp3" },
+    { "mood": "upbeat",     "name": "upbeat1.mp3",     "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/upbeat1.mp3" },
+    { "mood": "upbeat",     "name": "upbeat2.mp3",     "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/upbeat2.mp3" },
+    { "mood": "mysterious", "name": "mysterious1.mp3", "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/mysterious1.mp3" },
+    { "mood": "mysterious", "name": "mysterious2.mp3", "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/download/music/mysterious2.mp3" }
+  ]
+}

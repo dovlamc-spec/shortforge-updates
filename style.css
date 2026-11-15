@@ -80,3 +80,15 @@ footer a{color:var(--muted);margin-left:18px}
 .how b{width:28px;height:28px;flex:none;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#FF3D5A,#8A5CFF);color:#fff;font-size:13px}
 .fine{color:var(--muted);font-size:13px;margin-top:16px;line-height:1.7}
 @media(max-width:860px){.plans,.how{grid-template-columns:1fr}.plan.best{transform:none}.plan.best:hover{transform:translateY(-4px)}}
+
+/* ===== Video za svaki plan ===== */
+.watch{margin-top:14px;align-self:flex-start;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--text);font:600 13px/1 inherit;font-family:inherit;padding:9px 14px;border-radius:99px;cursor:pointer;transition:background .2s,border-color .2s}
+.watch:hover{background:rgba(255,61,90,.14);border-color:#ff3d5a88}
+.modal{position:fixed;inset:0;z-index:50;background:rgba(5,6,9,.82);backdrop-filter:blur(6px);display:grid;place-items:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .25s}
+.modal.on{opacity:1;pointer-events:auto}
+.modal-box{position:relative;width:min(960px,100%);background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 40px 120px #000;transform:scale(.96);transition:transform .3s}
+.modal.on .modal-box{transform:none}
+.modal-box video{display:block;width:100%;aspect-ratio:16/9;background:#000}
+.modal-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;font-weight:700}
+.modal-foot .btn{padding:10px 20px;background:linear-gradient(135deg,#FF3D5A,#8A5CFF)}
+.modal-x{position:absolute;top:10px;right:10px;z-index:2;width:36px;height:36px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:16px;cursor:pointer}

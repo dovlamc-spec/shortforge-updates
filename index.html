@@ -53,6 +53,7 @@
       <div class="plan-ic">♪</div>
       <h3>TikTok</h3>
       <p class="plan-sub">For TikTok creators</p>
+      <button class="watch" data-video="tiktok">▶ Watch what you get</button>
       <div class="price"><b data-m="€6.99" data-y="€49">€6.99</b><span data-m="/ month" data-y="/ year">/ month</span></div>
       <ul>
         <li>Unlimited videos, no watermark</li>
@@ -69,6 +70,7 @@
       <div class="plan-ic">★</div>
       <h3>Pack <small>YouTube + TikTok</small></h3>
       <p class="plan-sub">Everything, on both platforms</p>
+      <button class="watch" data-video="pack">▶ Watch what you get</button>
       <div class="price"><b data-m="€9.90" data-y="€69">€9.90</b><span data-m="/ month" data-y="/ year">/ month</span></div>
       <ul>
         <li>Everything in TikTok and YouTube</li>
@@ -85,6 +87,7 @@
       <div class="plan-ic">▶</div>
       <h3>YouTube</h3>
       <p class="plan-sub">For YouTube Shorts channels</p>
+      <button class="watch" data-video="youtube">▶ Watch what you get</button>
       <div class="price"><b data-m="€6.99" data-y="€49">€6.99</b><span data-m="/ month" data-y="/ year">/ month</span></div>
       <ul>
         <li>Unlimited videos, no watermark</li>
@@ -120,6 +123,14 @@
 </div></section>
 </main>
 
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="modal-x" aria-label="Close">✕</button>
+    <video id="modal-video" controls playsinline></video>
+    <div class="modal-foot"><span id="modal-title"></span><a class="btn buy" id="modal-buy">Get it</a></div>
+  </div>
+</div>
+
 <footer><div class="wrap">
   <span>© 2026 Wadisha · ShortForge Studio</span>
   <span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="mailto:vladimirtrajkovic.4444@gmail.com">Contact</a></span>
@@ -153,6 +164,23 @@ function refresh() {
 }
 document.querySelectorAll(".toggle button").forEach(b => b.onclick = () => { period = b.dataset.period; refresh(); if (window.createLemonSqueezy) createLemonSqueezy(); });
 refresh();
+
+// video za svaki plan
+const VIDEOS = { tiktok: ["TikTok plan", "Get TikTok"], youtube: ["YouTube plan", "Get YouTube"], pack: ["The Pack (YouTube + TikTok)", "Get the Pack"] };
+const modal = document.getElementById("modal"), mv = document.getElementById("modal-video");
+function openVideo(p) {
+  mv.src = "plan_" + p + ".mp4"; mv.poster = "plan_" + p + ".jpg";
+  document.getElementById("modal-title").textContent = VIDEOS[p][0];
+  const b = document.getElementById("modal-buy"); b.textContent = VIDEOS[p][1]; b.dataset.plan = p;
+  refresh(); if (window.createLemonSqueezy) createLemonSqueezy();
+  modal.classList.add("on"); modal.setAttribute("aria-hidden", "false");
+  mv.currentTime = 0; mv.play().catch(() => {});
+}
+function closeVideo() { modal.classList.remove("on"); modal.setAttribute("aria-hidden", "true"); mv.pause(); }
+document.querySelectorAll(".watch").forEach(b => b.onclick = () => openVideo(b.dataset.video));
+modal.onclick = e => { if (e.target === modal || e.target.classList.contains("modal-x")) closeVideo(); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeVideo(); });
+document.getElementById("modal-buy").addEventListener("click", closeVideo);
 </script>
 <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
 </body>

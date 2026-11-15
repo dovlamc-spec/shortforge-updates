@@ -1,14 +1,17 @@
 {
-  "version": "3.5",
+  "version": "4.3",
   "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe",
   "notes": [
-    "New Help page (F1): how every feature works, where to get each key, troubleshooting",
-    "System check: tests your keys, voice, rendering, YouTube and license in one click",
-    "'Get key' and 'Test' buttons next to every API key in Settings",
-    "Tooltips on every setting and keyboard shortcuts (Ctrl+Enter, Ctrl+G, Ctrl+B, Ctrl+1-5)",
-    "Pixabay: waits and retries when busy, caches searches - no more 429 errors",
-    "Groq: waits on rate limits and switches to smaller free models automatically",
-    "Faster footage downloads (1080p instead of 4K)",
-    "Dark drop-down menus that match the app"
+    "New plans: YouTube, TikTok or the Pack (both) - your key unlocks the platforms you bought",
+    "'Upgrade to Pack' button when your plan has only one platform",
+    "Buy Premium opens the new pricing page",
+    "Premium keys: the owner can now give you a key - paste it in Settings > Premium license key",
+    "Deleted messages now show as 'Message deleted' for everyone",
+    "Text fields: text is centered and no longer cut off",
+    "Your chosen name (✏ My name) is used in the greeting",
+    "NEW: Community - chat live with other creators",
+    "Color emoji picker, send pictures (button, Ctrl+V or drag & drop)",
+    "Forum: posts with categories, replies, pictures and search",
+    "Unread messages counter in the menu"
   ]
 }

@@ -1,19 +1,14 @@
 {
-  "version": "3.4",
+  "version": "3.5",
   "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe",
   "notes": [
-    "YouTube upload: connect your channel and upload or schedule videos (one or more per day at your times)",
-    "Auto-upload: every new video can go straight to YouTube",
-    "Up to 5x faster rendering on NVIDIA, AMD and Intel graphics cards",
-    "5 caption styles: Classic, Bold pop, Clean, Neon and Karaoke - with live preview",
-    "Thumbnail picture for every video",
-    "Logo watermark and brand intro",
-    "13 languages - make the same video in Spanish, German, Portuguese and more in one click",
-    "Music picked by the mood of each video",
-    "Topics page, AI idea generator and batch making (1-10 videos)",
-    "Videos page: play, copy title and description, mark uploaded",
-    "Setup wizard for first start",
-    "Send error report button",
-    "Sign in with Google, free trial and license info"
+    "New Help page (F1): how every feature works, where to get each key, troubleshooting",
+    "System check: tests your keys, voice, rendering, YouTube and license in one click",
+    "'Get key' and 'Test' buttons next to every API key in Settings",
+    "Tooltips on every setting and keyboard shortcuts (Ctrl+Enter, Ctrl+G, Ctrl+B, Ctrl+1-5)",
+    "Pixabay: waits and retries when busy, caches searches - no more 429 errors",
+    "Groq: waits on rate limits and switches to smaller free models automatically",
+    "Faster footage downloads (1080p instead of 4K)",
+    "Dark drop-down menus that match the app"
   ]
 }

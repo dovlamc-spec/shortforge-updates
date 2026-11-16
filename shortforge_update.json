@@ -1,17 +1,16 @@
 {
-  "version": "4.3",
+  "version": "4.6",
   "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe",
   "notes": [
-    "New plans: YouTube, TikTok or the Pack (both) - your key unlocks the platforms you bought",
-    "'Upgrade to Pack' button when your plan has only one platform",
-    "Buy Premium opens the new pricing page",
-    "Premium keys: the owner can now give you a key - paste it in Settings > Premium license key",
-    "Deleted messages now show as 'Message deleted' for everyone",
-    "Text fields: text is centered and no longer cut off",
-    "Your chosen name (✏ My name) is used in the greeting",
-    "NEW: Community - chat live with other creators",
-    "Color emoji picker, send pictures (button, Ctrl+V or drag & drop)",
-    "Forum: posts with categories, replies, pictures and search",
-    "Unread messages counter in the menu"
+    "📊 Owner dashboard: users, Premium vs Free, keys, suggestions (Admin page)",
+    "📅 Plan a month: fill your queue with 30 topics in one click (Topics page)",
+    "✨ A/B title ideas: AI gives a few titles, you pick the best (in the preview)",
+    "Each channel already keeps its own voice & style",
+    "🤖 Autopilot: make videos for you every day at a set time (Dashboard)",
+    "🔔 Notifications bell: replies to your ideas, Premium reminders and more",
+    "👍 Vote on suggestions - the best ideas rise to the top (roadmap)",
+    "Owner/staff: set a status (Planned/Done...) and reply to suggestions",
+    "Crash reports are now sent automatically",
+    "📣 Share ShortForge card in Help"
   ]
 }

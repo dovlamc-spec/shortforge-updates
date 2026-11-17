@@ -1,16 +1,10 @@
 {
-  "version": "4.6",
+  "version": "4.7",
   "url": "https://github.com/dovlamc-spec/shortforge-updates/releases/latest/download/ShortForgeStudio-Setup.exe",
   "notes": [
-    "📊 Owner dashboard: users, Premium vs Free, keys, suggestions (Admin page)",
-    "📅 Plan a month: fill your queue with 30 topics in one click (Topics page)",
-    "✨ A/B title ideas: AI gives a few titles, you pick the best (in the preview)",
-    "Each channel already keeps its own voice & style",
-    "🤖 Autopilot: make videos for you every day at a set time (Dashboard)",
-    "🔔 Notifications bell: replies to your ideas, Premium reminders and more",
-    "👍 Vote on suggestions - the best ideas rise to the top (roadmap)",
-    "Owner/staff: set a status (Planned/Done...) and reply to suggestions",
-    "Crash reports are now sent automatically",
-    "📣 Share ShortForge card in Help"
+    "🔑 Activate Premium right from the sign-in screen — paste your key and you're in instantly",
+    "[owner] License keys can now be removed only by owner/staff",
+    "[owner] Discord: one-click ShortForge community server + automatic patch notes",
+    "Polish and small fixes"
   ]
 }
